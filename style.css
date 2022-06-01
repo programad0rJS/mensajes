@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.Navegacion {
+    position: fixed;
+    background: red;
+    width: 129rem;
+    height: 180px;
+
+}
+
+.Imagenes {
+    padding: 4px;
+    margin: 4px;
+    border-radius: 20px;
+    width: 89px;
+}
+
+.Listas {
+    list-style: none;
+    display: flex;
+    position: relative;
+
+
+}
+
+.facebooks {
+    color: white;
+    font-size: 28px;
+    background-color: black;
+    border-radius: 20px;
+
+    position: relative;
+    left: 60rem;
+    top: -100px;
+
+}
+
+.Rivera {
+    color: white;
+    font-size: 28px;
+    background-color: black;
+    border-radius: 20px;
+
+    position: relative;
+    left: 50rem;
+    top: -130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Footers {
+    width: 129rem;
+    /* height: 180px; */
+    background: red;
+    text-align: center;
+}
+
+.Parrafos {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Parrafos1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Contenidos {
+    margin: 60px;
+}
+
+.Enlaces_1 {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.Tamños_imagenes {
+    border-radius: 25px;
+    width: 90px;
+
+}
+
+.Flex_parrafos {
+    position: relative;
+    left: 120px;
+    top: -60px;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .facebooks{
+        position: relative;
+         left: 20rem;
+    }
+    .Rivera{
+        position: relative;
+         left: 10rem;
+    }
+    .Footers {
+        opacity: 0;
+        
+    }
+
+}

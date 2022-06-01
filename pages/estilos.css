@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.Navegacion{
+    position: fixed;
+    background: red;
+    width: 129rem;
+    height: 180px;
+  
+}
+.Imagenes{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 20px;
+    width: 89px;
+ }
+
+
+ .Parrafos1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Text_Input{
+
+        width: 990px;
+        height: 39px;
+        
+
+}
+
+.Button{
+    width: 40px;
+    height: 40px;
+}
